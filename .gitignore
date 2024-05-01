@@ -1,3 +1,6 @@
+# Added by me:
+#venv/ already included in standard python .gitignore
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
