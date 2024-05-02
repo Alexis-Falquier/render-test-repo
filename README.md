@@ -4,16 +4,22 @@ Web app to learn about, play around with, and test a streamlit application hoste
 
 Initialize with a virtual environment:
 
-`python -m venv venv`
+with venv: `python -m venv venv` (use `pyenv global 3.*` to use a specific python version)
 
-`source venv/bin/activate`
+with conda: `conda create --prefix ./venv` (use `conda create --prefix ./venv python=3.*` to use a specific python version)
+
+with venv: `source venv/bin/activate`
+
+with conda: `conda activate ./venv`
 
 to deactivete:
 
-`deactivate`
+with venv: `deactivate`
+
+with conda: `conda deactivate`
 
 After creating venv and running it:
 
-`pip install streamlit`
+`pip install -r requirements.txt`
 
 `streamlit run app.py`
